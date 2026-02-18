@@ -1,16 +1,52 @@
-# React + Vite
+# React E-Commerce Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive, modern E-Commerce frontend application built with React.js and Tailwind CSS. This project was developed to demonstrate component-driven architecture, state management, and responsive web design.
 
-Currently, two official plugins are available:
+## 🚀 Features Implemented
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Pages (5 Pages)
+* **Home Page:** Features an engaging hero section.
+* **Product Listing Page:** Displays a responsive grid of products with search, category filtering, and price sorting.
+* **Product Details Page:** Dynamic routing to show individual product information and high-quality images.
+* **Cart Page:** Displays added items, allows quantity updates, item removal, and calculates the live order total.
+* **Login / Signup Page:** A clean authentication UI with a toggle state.
 
-## React Compiler
+### Core Functionality
+* **Routing:** Seamless client-side navigation using React Router DOM.
+* **State Management:** Global cart state managed via React Context API.
+* **Data Persistence:** Cart items and theme preferences are saved to Local Storage so they survive page reloads.
+* **Responsive Design:** Fully mobile-first and optimized for all screen sizes using Tailwind CSS.
+* **Dynamic Interactivity:** Add to cart, remove from cart, and update quantities instantly.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🌟 Bonus Features
+* **Dark Mode:** Seamless Light/Dark theme toggle using Tailwind's class strategy and Local Storage.
+* **Product Sorting:** Sort products dynamically by Price (Low to High / High to Low).
+* **UI Polish:** Glassmorphism navbar, smooth hover animations, and image zoom effects.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
+* **Framework:** React.js (Functional Components, Hooks)
+* **Styling:** Tailwind CSS
+* **Routing:** React Router DOM
+* **Build Tool:** Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 💻 Project Setup Instructions
+
+To run this project locally on your machine, follow these steps:
+
+### 1. Prerequisites
+Make sure you have [Node.js](https://nodejs.org/) installed on your computer.
+
+### 2. Installation
+Clone the repository and install the dependencies:
+
+```bash
+# Clone the repository (replace with your repo link)
+git clone [https://github.com/yourusername/ecommerce-frontend.git](https://github.com/yourusername/ecommerce-frontend.git)
+
+# Navigate into the project directory
+cd ecommerce-frontend
+
+# Install dependencies
+npm install
